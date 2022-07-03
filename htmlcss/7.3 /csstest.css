@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    display: block;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+header{
+    display: block;
+    width: 100%;
+    height: 100px;
+    
+    
+}
+/* nav{
+    ;
+} */
+h1 {
+    float: left;
+    width: 50%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+h1 a{
+    display: block;
+    font-size: 30px;
+
+    line-height: 100px;
+    margin: 0 30px;
+
+}
+
+#nav{
+    display: block;
+    width: 50%;
+    height: 100px;
+    float: right;
+    background-color: blueviolet;
+    
+    
+}
+
+#nav li {
+    float: left;
+    display: block;    
+    width: 33.333%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#nav li a{
+    display: block; 
+    width: 100%;
+    height: 100px;
+}
+
+#nav1{
+    background-color: rgb(244, 236, 252);
+}
+#nav2{
+    background-color: rgb(216, 198, 234);
+}
+#nav3{
+    background-color: rgb(173, 142, 203);
+}
+
+/* header */
+
+
+/* main */
+article{
+    display: block;
+    width: 50%;
+    height: 480px;
+    background-color: blue;
+    
+    
+}
+
+h2{
+    color: white;
+}
+
+.one{
+    background-color: rgb(137, 85, 185);
+}
+
+
+/* main */
+
+/* footer */
+/* footer */
