@@ -1,0 +1,51 @@
+[calculate.html]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculate</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <!-- <h1>계산기</h1>
+   <input type="button" value="1" 
+   onclick="pressButton(1)"/>
+   <input type="button" value="2" onclick="pressButton(2)"/>
+   <input type="button" value="3" onclick="pressButton(3)"/>
+   <input type="button" value="4" onclick="pressButton(4)"/>
+   <input type="button" value="5" onclick="pressButton(5)"/>
+   <input type="button" value="6" onclick="pressButton(6)"/>
+   <input type="button" value="7" onclick="pressButton(7)"/>
+   <input type="button" value="8" onclick="pressButton(8)"/>
+   <input type="button" value="9" onclick="pressButton(9)"/>
+   <h2>식</h2>
+    <div id="expretion">여기</div>
+   <h2>정답</h2>
+    <div id="answer"></div> -->
+
+
+    <h1>계산기</h1>
+    <h2>숫자</h2>
+    <input type="button" value="1" onclick="printExpression(1)" />
+    <input type="button" value="2" onclick="printExpression(2)" />
+    <input type="button" value="3" onclick="printExpression(3)" />
+    <input type="button" value="4" onclick="printExpression(4)" />
+    <input type="button" value="5" onclick="printExpression(5)" />
+    <input type="button" value="6" onclick="printExpression(6)" />
+    <input type="button" value="7" onclick="printExpression(7)" />
+    <input type="button" value="8" onclick="printExpression(8)" />
+    <input type="button" value="9" onclick="printExpression(9)" />
+    <h2>연산</h2>
+    <input type="button" value="+" onclick="printExpression('+')" />
+    <input type="button" value="-" onclick="printExpression('-')" />
+    <input type="button" value="*" onclick="printExpression('*')" />
+    <input type="button" value="/" onclick="printExpression('/')" />
+    <input type="button" value="%" onclick="printExpression('%')" />
+    <h2>식</h2>
+    <div id="expression">여기</div>
+    <h2>정답</h2>
+    <div id="answer"></div>
+</body>
+</html>
